@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text(
               '右下のボタンを押して',
             ),
-            Text('新しいメモを追加'),
+            const Text('新しいメモを追加'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
