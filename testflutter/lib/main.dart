@@ -50,7 +50,9 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text(
               '右下のボタンを押して',
             ),
-            const Text('新しいメモを追加'),
+            const Text(
+              '新しいメモを追加',
+            ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
@@ -63,6 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ),
+      drawer: Drawer(),
     );
   }
 }
