@@ -65,7 +65,12 @@ class _MyHomePageState extends State<MyHomePage> {
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ),
-      drawer: Drawer(),
+      drawer: Drawer(
+        child: (Text(
+          '分類検索',
+          style: Theme.of(context).textTheme.headline4,
+        )),
+      ),
     );
   }
 }
